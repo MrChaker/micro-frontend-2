@@ -6,7 +6,7 @@ const Canva = () => {
             style={{
                 height: 600,
                 width: 1000,
-                backgroundColor: "blue",
+                backgroundColor: "red",
                 textAlign: "center",
                 fontSize: "4rem",
             }}>
