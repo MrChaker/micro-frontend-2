@@ -48,7 +48,7 @@ module.exports = (_, argv) => ({
             filename: "remoteEntry.js",
             remotes: {},
             exposes: {
-                Canva: "./src/Canva.tsx",
+                "./Canva": "./src/Canva",
             },
             shared: {
                 ...deps,
