@@ -1,5 +1,5 @@
 import React from "react";
-import useCanvaStore from "./store";
+import useCanvaStore from "./Store";
 
 const Canva = () => {
     const { bg, mutateColor } = useCanvaStore((state: any) => ({

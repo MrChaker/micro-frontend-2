@@ -44,12 +44,12 @@ module.exports = (_, argv) => ({
 
     plugins: [
         new ModuleFederationPlugin({
-            name: "canva",
+            name: "store",
             filename: "remoteEntry.js",
             remotes: {},
             exposes: {
                 /* "./Canva": "./src/Canva", */
-                "./store": "./src/store",
+                "./Store": "./src/Store",
             },
             shared: {
                 ...deps,
