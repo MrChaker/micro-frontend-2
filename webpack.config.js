@@ -49,7 +49,7 @@ module.exports = (_, argv) => ({
             remotes: {},
             exposes: {
                 /* "./Canva": "./src/Canva", */
-                "./Canva": "./src/Canva",
+                "./store": "./src/store",
             },
             shared: {
                 ...deps,
